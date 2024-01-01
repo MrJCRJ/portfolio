@@ -37,8 +37,10 @@ nav {
 
 .logo:hover {
     text-shadow: 3px 3px 0.1px black;
+    margin-inline: 1.5px;
 }
 
 a:hover {
     text-shadow: 3px 3px 0.1px black;
+    margin-inline: 1px;
 }
