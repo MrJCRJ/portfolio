@@ -1,10 +1,10 @@
-window.document.querySelector(".logo").addEventListener("click", () => {
+window.document.querySelector(".logo").addEventListener("mouseover", () => {
     const myHeading = document.querySelector(".logo");
-    if (myHeading.textContent === 'Meu Portfólio') {
-        myHeading.textContent = 'Hello Word'
+    if (myHeading.textContent === 'JCRJ') {
+        myHeading.textContent = 'Jose Cicero Ribeiro Junior'
         
     } else {
-        myHeading.textContent = 'Meu Portfólio'
+        myHeading.textContent = 'JCRJ'
     }
 })
 
