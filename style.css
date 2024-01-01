@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,300;1,400&family=Rubik+Scribble&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.logo:hover {
+    text-shadow: 3px 3px 0.1px black;
+}
+
+a:hover {
+    text-shadow: 3px 3px 0.1px black;
+}
